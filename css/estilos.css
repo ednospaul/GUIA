@@ -1,0 +1,296 @@
+	body
+{
+	font-size: 16px;
+	color: #16210b;
+}
+.header
+{
+	background: #FF1744;
+	text-align: center;
+}
+.header .logo
+{
+	padding: 8px;		
+}
+.menu ul
+{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background: #006064;
+}
+.menu ul li
+{
+	display: inline-block;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	padding: 15px;
+	display: inline-block;
+	color: white;
+	font-size: 19px;
+}
+.menu ul li a:hover
+{
+	background: #00838F;	
+}
+.slider
+{
+	background-image: url('../img/abancay2.jpg');
+	background-size: cover;
+	margin: 0;
+	display: inline-block;
+	width: 100%;
+	background-position: center;
+}
+.slider .opaco
+{
+	position: absolute;
+	height: 635px;
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+}
+.slider .p_wrapper
+{
+	height: 634px;
+}
+.slider .p_wrapper .slogan
+{
+	padding-top: 120px;
+	overflow: hidden;
+	text-align: center;
+}
+.slider .p_wrapper .slogan .tituloMain
+{
+	font-size: 45px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	margin: 15px 0 0 0;
+	position: relative;
+	width: 1000px;
+	margin: 15px auto 0;
+	text-shadow: 0px 1px 0px #555;
+	display: block;
+	line-height: 1.1;
+	text-align: center;
+}
+.slider .p_wrapper .slogan .tituloMain::before
+{
+	right: -930px;
+}
+.slider .p_wrapper .slogan .tituloMain::after
+{
+	left: -930px;
+}
+.slider .p_wrapper .slogan .tituloMain::before,
+.slider .p_wrapper .slogan .tituloMain::after
+{
+	content: ' ';
+	position: absolute;
+	width: 1000px;
+	top: 26px;
+	border-bottom: 1px solid #fff;
+}
+.slider .p_wrapper .slogan .desMain
+{
+	font-size: 24px;
+	color: white;
+	margin-top: 50px;
+	display: inline-block;
+	position: relative;
+	line-height: 130%;
+	text-shadow: 0px 1px 0px #555;
+	text-align: center;
+}
+.slider .p_wrapper .busqueda
+{
+	margin-top: 40px;
+	position: relative;
+	text-align: center;
+}
+.slider .p_wrapper .busqueda #form_buscar #search
+{
+	border: none;
+	padding: 10px 40px 10px 55px;
+	font-size: 22px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 40%;
+	background: url('../img/lupa_30.png') no-repeat 15px 12px;
+	background-color: white;
+}
+.slider .p_wrapper .busqueda #form_buscar #btn_buscar:hover
+{
+	background-color: #006064;
+	color: #fff;
+}
+.slider .p_wrapper .busqueda #form_buscar #btn_buscar
+{
+	border: none;
+	padding: 10px 25px;
+	font-size: 21px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-color: #fff;
+	border-radius: 5px;
+	font-weight: 600;
+	color: #FF1744;
+	margin-left: 5px;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;	
+}
+.titulo
+{
+	text-align: center;
+	padding-top: 20px;
+}
+.titulo p
+{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FF1744;
+}
+.categorias 
+{
+	padding-bottom: 30px;
+}
+.categorias .categorias
+{
+	text-align: center;
+	padding: 0 120px;
+}
+.categorias .categorias a
+{
+	text-decoration: none;
+}
+.categorias .categorias .cat
+{
+	display: inline-block;
+	margin: 10px 18px;
+	border: 2px dashed #B0C4DE;
+	color: #555;
+	transition:0.3s;
+}
+.categorias .categorias .cat:hover
+{
+	background: #4CAF50;
+	color: white;
+}
+.categorias .categorias .cat p
+{
+	text-align: center;
+}
+.categorias .categorias .cat figure img
+{
+	height: 70px;
+	width: 70px;
+}
+
+.lista_cat .lista
+{
+	background: #fff; 
+	margin: 15px 20px;	
+	color: #555 !important;
+	box-shadow: 1px 2px 2px #888888;
+}
+.lista_cat .lista:hover
+{
+	background-color: #feffd5 !important;
+}
+.lista_cat .lista .top
+{
+	padding: 5px 20px 15px 20px;
+}
+.link
+{
+	text-decoration: none;
+	color: #555;
+}
+.link:hover
+{
+	text-decoration: underline;
+}
+.lista_cat .lista .top .opiniones
+{
+	text-align: center;
+}
+
+.lista_cat .lista .top .img_list
+{
+	float: right;
+	margin-top: 10px;
+}
+.lista_cat .lista .top .img_list a img
+{
+	width: 120px;
+	height: 90px;
+}
+.lista_cat .lista .bot
+{
+	padding: 10px 20px;
+	background-color: #faf9f5;
+	border-top: 1px solid #e2e4e4;
+	font-size: 12px;
+	color: #888;
+}
+.celeste_link
+{
+	color: #5ca9dd;
+}
+
+.contenido .formulario
+{
+	text-align: center;	
+}
+.contenido .formulario .formulario_in
+{
+	text-align: center;
+}
+.caja_formulario
+{
+	display: block;
+}
+.caja_formulario label
+{
+	text-transform: uppercase;
+	padding: 2px;
+	width: 95%;
+	display: inline-block;
+	text-align: left;
+}
+.caja_formulario input
+{
+	width: 95%;
+	padding: 5px;
+	margin: 5px;
+}
+.caja_formulario select
+{
+	width: 96%;
+	padding: 5px;
+	margin: 5px;
+}
+.caja_formulario button
+{
+	padding: 10px 80px;
+	margin: 10px;
+	background: #006064;
+	border: 2px solid #006064;
+	border-radius: 5px;
+	color: #fff;
+}
+.caja_formulario button:hover
+{
+	color: #FF1744;
+}

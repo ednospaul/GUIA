@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurantes Abancay</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<!--estilos.css.desarrollandoapp-->
+	<link rel="stylesheet" href="css/estilos.css">
+	<style>
+		.slider .p_wrapper
+		{
+			height: 250px;
+		}
+		.slider .p_wrapper .slogan
+		{
+			padding-top: 30px;
+		}
+		.slider .opaco
+		{
+			height: 234px;
+		}
+		.plateado
+		{
+			background: #f2f1ed;
+		}
+		.slider .p_wrapper .slogan .desMain
+		{
+			padding: 0 15px;
+		}
+		.slider .p_wrapper .slogan .tituloMain
+		{
+			width: 500px;
+		}
+	</style>
+	<!--js.desarrollandoapp.com-->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body class="plateado">
+	<header class="header">
+		<div class="logo">
+			<a href="#"><img src="img/logo.png" alt=""></a>
+		</div>
+	</header>
+	<nav class="menu">
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+	</nav>
+	<section class="slider">
+		<div class="opaco"></div>
+		<div class="p_wrapper">
+			<div class="slogan">
+				<strong class="tituloMain">Restaurantes</strong>
+				<p class="desMain">Nuestra guía brinda una variedad de los mejores restaurantes</p>
+			</div>
+		</div>
+	</section>
+	<section class="lista_cat">
+			<div class="lista">
+				<div class="top">
+					<div class="img_list">
+						<a href="img/matias.jpg"><img src="img/matias.jpg" alt=""></a>
+						<a href="img/matias2.jpg"><img src="img/matias2.jpg" alt=""></a>
+						<a href="img/matias3.jpg"><img src="img/matias3.jpg" alt=""></a>
+					</div>
+					<h2 class="titulo_lista"><a class="link" href="#">Matias Resto-Bar</a></h2>
+					
+					<div class="direccion">
+						<strong>Direccion: </strong><a class="link" href="#">Av. Arenas</a><span>, 546</span>
+					</div>
+					<div class="fono">
+						<strong>Telefono: </strong>(083) 323265	<br>
+						<strong>Celular: </strong>986475165
+					</div>
+					
+				</div>
+				<div class="bot">
+            		Matias RestoBar un excelente restaurante  muy buena atencion  la comida y bebidas muy deliciosas y aparte que podemos... 
+            		<a class="link celeste_link" href="#" target="_blank">Leer más »</a>
+				</div>
+			</div>
+			<div class="lista">
+				<div class="top">
+					<div class="img_list">
+						<a href="img/matias.jpg"><img src="img/matias.jpg" alt=""></a>
+						<a href="img/matias2.jpg"><img src="img/matias2.jpg" alt=""></a>
+						<a href="img/matias3.jpg"><img src="img/matias3.jpg" alt=""></a>
+					</div>
+					<h2 class="titulo_lista"><a class="link" href="#">Matias Resto-Bar</a></h2>
+					
+					<div class="direccion">
+						<strong>Direccion: </strong><a class="link" href="#">Av. Arenas</a><span>, 546</span>
+					</div>
+					<div class="fono">
+						<strong>Telefono: </strong>(083) 323265	<br>
+						<strong>Celular: </strong>986475165
+					</div>
+					
+				</div>
+				<div class="bot">	
+           			 Matias RestoBar un excelente restaurante  muy buena atencion  la comida y bebidas muy deliciosas y aparte que podemos... 
+            		<a class="celeste_link link" href="#" target="_blank">Leer más »</a>
+				</div>
+			</div>
+			<div class="lista">
+				<div class="top">
+					<div class="img_list">
+						<a href="img/matias.jpg"><img src="img/matias.jpg" alt=""></a>
+						<a href="img/matias2.jpg"><img src="img/matias2.jpg" alt=""></a>
+						<a href="img/matias3.jpg"><img src="img/matias3.jpg" alt=""></a>
+					</div>
+					<h2 class="titulo_lista"><a class="link" href="#">Matias Resto-Bar</a></h2>
+					
+					<div class="direccion">
+						<strong>Direccion: </strong><a class="link" href="#">Av. Arenas</a><span>, 546</span>
+					</div>
+					<div class="fono">
+						<strong>Telefono: </strong>(083) 323265	<br>
+						<strong>Celular: </strong>986475165
+					</div>
+					
+				</div>
+				<div class="bot">	
+           			 Matias RestoBar un excelente restaurante  muy buena atencion  la comida y bebidas muy deliciosas y aparte que podemos...  
+            		<a class="link celeste_link" href="#" target="_blank">Leer más »</a>
+				</div>
+			</div>
+	</section>
+	
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+    $('.img_list a').Chocolat({
+    	overlayColor:'#000',
+    	fadeInOverlayduration: 100,
+    	fadeOutOverlayduration: 100,
+    	fadeInImageduration: 200,
+    	linkImages: false,
+    	closeImg:'img/close.gif'
+    });
+});</script>
+</html>
